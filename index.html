@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Arron J. Linton</title>
+
+  <!-- Linking Reset StyleSheet -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Linking W3Schools Library -->
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+  <!-- Linking Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Linking Google Fonts Stylesheet -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- Linking CSS Style Sheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Arron J. Linton</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<header class="front-page">
+<div class="front-body">
+
+<!--   <img src="./assets/images/landscape.jpeg" width="100%" height="100%"> -->
+<!--   <figure> 
+      <img src="assets/images/skyline.jpeg" width="100%" height="100%" /> 
+    </figure> 
+
+    <figure> 
+      <img src="assets/images/suburbs.jpg" width="100%" height="100%" /> 
+    </figure> 
+
+    <figure> 
+      <img src="assets/images/landscape.jpeg" width="100%" height="100%" /> 
+    </figure> 
+
+    <figure> 
+      <img src="assets/images/beach.jpeg" width="100%" height="100%"/> 
+    </figure>  -->
+  <div class="container" id="front-caption">
+  <h1 style="color:white; text-align: center">Full Stack Web Developer <br> Positive Ethusiast <br> Avid Traveller</h1>
+  </div>
+</div>
+</header>
+
+<!-- Second Container -->
+<div id="about" class="container-fluid bg-2 text-center">
+  <h3 class="margin">ABOUT ME</h3>
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="./assets/images/profilepic.jpg" class=" img-rounded margin"  alt="Arron J. Linton" width="180px" height="300px">
+    </div>
+    <div class="col-lg-7">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    </div>
+  </div>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin" id="projects" style="color:black">PROJECTS</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <h4>MAESTRO</h4>
+      <p>Web Application that increases company productivity via improving company culture by connecting and engaging employees on a music platform.</p>
+      <a href="https://maestro-rs-al-ia.herokuapp.com"><img src="assets/images/maestro.png" class="img-responsive img-rounded margin" style="width:100%" alt="Maestro"></a>
+    </div>
+    <div class="col-sm-4">
+      <h4>NewYork Times APP</h4>
+      <p>Easy-to-use informational news search platform that utilizes the NewYork Times API to display information based on user input.</p>
+      <br>
+      <a href="https://dry-fortress-57474.herokuapp.com/"><img src="./assets/images/nytimes.png" class="img-responsive img-rounded margin" style="width:100%" alt="NYTIMES"></a>
+    </div>
+    <div class="col-sm-4">
+      <h4>Music Trivia</h4>
+      <p>Created a Music Trivia game playable in the browser.</p>
+      <br>
+      <a href="https://trivia-music.herokuapp.com/"><img src="./assets/images/musictrivia.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="MUSIC TRIVIA"></a>
+    </div>
+  </div>
+</div>
+
+<!-- Fourth Container -->
+<div class="container-fluid bg-4 text-center" id="contact">    
+  <h3 class="margin">CONTACT</h3><br>
+  <div class="row">
+    <!-- Contact Form -->
+    <div id="message-form" class="container col-lg-5">
+    <h4>Message Me</h4>
+      <form>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="name">Name</label>
+          <input class="form-control" type="text" id="name" name="name" required="required">
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Email</label>
+          <input class="form-control" type="email" id="email" name="email" required="required">
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" required="required"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit" value="submit">SUBMIT</button>
+      </form>
+      
+    </div>
+    <!-- Connect with me -->
+    <div id="connect" class="container col-lg-5">
+      <h4>Connect With Me</h4>
+      <div class="col-sm-4">
+        <a href="https://www.linkedin.com/in/arron-j-linton-97393633">
+          <img src="http://sitesky.co.uk/wp-content/uploads/2014/12/linkedin_logo.png" class="img-responsive img-rounded margin social" style="width:75%"></a>
+      </div>
+      <div class="col-sm-4">
+        <a href="http://stackoverflow.com/"><img src="http://sourcingrecruitment.info/wp-content/uploads/2015/05/stackoverflow.png" class="img-responsive img-rounded margin social" style="width:75%"></a>
+      </div>
+      <div class="col-sm-4">
+        <a href="https://github.com/ArronJLinton"><img src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png" class="img-responsive img-rounded margin social" style="width:75%"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-5 text-center">
+  <div style="color:black">
+    &copy; Copyright 2017 Arron J. Linton
+  </div>
+  
+</footer>
+
+</body>
+</html>
