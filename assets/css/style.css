@@ -118,17 +118,27 @@ body {
 
 
   .bg-2 { 
-      background-color: #474e5d;  Dark Blue 
+      background-color: black;
       color: #ffffff;
+  }
+
+  .bg-2 p {
+    color: #ffffff; White
+    text-align: left;
   }
   .bg-3 { 
       background-color: #ffffff;  White 
       color: #555555;
   }
   .bg-4 { 
-      background-color: #2f2f2f;  Black Gray 
+      background-color: black; 
       color: #fff;
   }
+  
+  .container {
+    padding: 10px 10px;
+  }
+
   .container-fluid {
       padding-top: 70px;
       padding-bottom: 70px;
@@ -146,17 +156,23 @@ body {
       color: #1abc9c !important;
   }
 
+/*Contact Section*/
+
+#contact-section {
+  max-width: 1200px;
+  width: 100%;
+}
+
 /*Message Form*/
 
 #message-form {
   background: #fff;
   padding: 30px;
-  max-width: 650px;
+  max-width: 600px;
   width: 100%;
   border: 1px solid #ddd;
   float: left;
-  margin: 0 0 40px 0;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 label {
@@ -164,18 +180,16 @@ label {
   font-size: 16px;
 }
 
-
 /*Connect With Me Sidebar*/
 
 #connect {
   max-width: 400px;
+  float: right;
   width: 100%;
-  margin-left: 50px;
   background: #fff;
   padding: 15px;
   border: 1px solid #ddd;
 }
-
 
 h4, #connect h4 {
   border-bottom: 2px solid #eee;
@@ -189,14 +203,18 @@ h4 {
 }
 
 .social {
+  height: 100px;
+  width: 100px;
+  float: left;
   margin-top: 8px;
   margin-right: 5px;
 }
+
 .social:last-child {
   margin-right: 0;
 }
 
-/**Media Screen Tags*/
+/*Media Screen Tags*/
 @media screen and (max-width: 980px) {
 
   
@@ -209,5 +227,33 @@ h4 {
 
 
 @media screen and (max-width: 640px) {
+  
 
+  #contact-section {
+    margin-left: 10px;
+  }
+/*Message form panel*/
+  #message-form {
+    margin: 0;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+/*Connect Panel*/
+  #connect {
+    margin: 0;
+    margin-top: 75px;
+    max-width: 550px;
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
+    text-align: center;
+    float: none;
+  }
+
+  .social {
+    height: 100px;
+    width: 85px;
+  }
 }
