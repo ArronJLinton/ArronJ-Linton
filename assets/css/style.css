@@ -37,7 +37,7 @@ body {
   /* The animation slideshow code */
   @keyframes slideshow {
       0%   {background-image: url("../images/skyline.jpeg");}
-      25%   {background-image: url("../images/skyline.jpeg");}
+      25%  {background-image: url("../images/skyline.jpeg");}
       50%  {background-image: url("../images/suburbs.jpg");}
       75%  {background-image: url("../images/landscape.jpeg");}
       100% {background-image: url("../images/beach.jpeg");}
@@ -45,10 +45,11 @@ body {
 
   /* The element to apply the animation to */
   .background-pics {
+
       padding-top: 640px;
-      max-width: auto;
+      max-width: 100%;
       width: 100%;
-      height: 100%;
+      height: auto;
       /*background-image: url("../images/skyline.jpeg");*/
       background-size: cover;
       animation-name: slideshow;
@@ -176,13 +177,19 @@ h4 {
 @media screen and (max-width: 640px) {
   
 
-/*Projects*/
+/*Background Slideshow*/
+  .background-pics {
+    padding-top: 640px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+  }
 
-
-/*.project-image {
-  width: 400px;
-  height: 400px;
-}*/
+  #front-caption {
+  position: absolute;
+  bottom: 25px;
+  }
 
 /*Message form panel*/
   #message-form {
