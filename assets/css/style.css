@@ -17,44 +17,30 @@ body {
     margin-bottom: 45px;
   }
 
-/*  .bg-1 { 
-      background-color: #0274b3;  Darkcyan 
-      color: #ffffff;
+  /* The animation slideshow code */
+/*  @keyframes slideshow {
+      0%  {background-image: url("../images/skyline.jpeg");}
+      25%  {background-image: url("../images/suburbs.jpg");}
+      50%  {background-image: url("../images/landscape.jpeg");}
+      75% {background-image: url("../images/beach.jpeg");}
   }*/
 
-
-
-
- /* .front-page {*/
-/*    display: table;*/
-   /* width: 100%;
-    height: 100%;*/
-/*    padding: 225px 89.5px;
-    background-image: url("../images/skyline.jpeg");
-    background-size: cover;*/
-  /*}*/
-
-  /* The animation slideshow code */
-  @keyframes slideshow {
-      0%   {background-image: url("../images/skyline.jpeg");}
-      25%  {background-image: url("../images/skyline.jpeg");}
-      50%  {background-image: url("../images/suburbs.jpg");}
-      75%  {background-image: url("../images/landscape.jpeg");}
-      100% {background-image: url("../images/beach.jpeg");}
-  }
-
   /* The element to apply the animation to */
-  .background-pics {
-
-      padding-top: 640px;
+/*  .background-pics {
       max-width: 100%;
       width: 100%;
-      height: auto;
+      height: 640px;
       /*background-image: url("../images/skyline.jpeg");*/
-      background-size: cover;
+      /*background-size: cover;
       animation-name: slideshow;
       animation-duration: 10s;
-      animation-iteration-count: infinite;
+      animation-iteration-count: infinite;*/
+  /*}*/
+
+  .background-image {
+  
+    width: 100%;
+    height: auto;
   }
 
 
@@ -172,24 +158,18 @@ h4 {
 
 }
 
-
-
 @media screen and (max-width: 640px) {
   
 
 /*Background Slideshow*/
-  .background-pics {
-    padding-top: 640px;
-    max-width: 100%;
+  .background-image img {
     width: 100%;
-    height: auto;
-    background-size: 100% 100%;
+    height: 530px;
   }
 
-  #front-caption {
-  position: absolute;
-  bottom: 25px;
-  }
+.container-fluid {
+  padding: none;
+}
 
 /*Message form panel*/
   #message-form {
