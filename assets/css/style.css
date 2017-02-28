@@ -17,6 +17,9 @@ body {
     margin-bottom: 45px;
   }
 
+
+/*First Container*/
+
   /* The animation slideshow code */
 /*  @keyframes slideshow {
       0%  {background-image: url("../images/skyline.jpeg");}
@@ -43,11 +46,11 @@ body {
     height: auto;
   }
 
-
+/*First Container Text*/
   #front-caption {
     position: absolute;
-    left: 75px;
-    bottom: 100px;
+    left: 6%;
+    bottom: 30%;
     font-style: italic;
   }
 
@@ -56,6 +59,11 @@ body {
       background-color: black;
       color: #ffffff;
   }
+
+/*  #about_summary {
+    width: 75%;
+    text-align: center;
+  }*/
 
   .bg-2 p {
     color: #ffffff; White
