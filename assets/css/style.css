@@ -46,6 +46,13 @@ body {
     height: auto;
   }
 
+  #nav {
+    position: fixed;
+    width: 100%;
+    overflow: auto;
+    z-index: 99;
+  }
+
 /*First Container Text*/
   #front-caption {
     position: absolute;
@@ -54,25 +61,28 @@ body {
     font-style: italic;
   }
 
-
+/*About Me Section*/
   .bg-2 { 
       background-color: black;
       color: #ffffff;
   }
 
-/*  #about_summary {
-    width: 75%;
-    text-align: center;
-  }*/
+  #about-summary {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 
   .bg-2 p {
     color: #ffffff; White
-    text-align: left;
   }
+
+/*Projects Section*/
   .bg-3 { 
       background-color: #ffffff;  White 
       color: #555555;
   }
+
+  /*Contact Section*/
   .bg-4 { 
       background-color: black; 
       color: #fff;
