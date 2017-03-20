@@ -72,6 +72,11 @@ body {
     margin-right: 15%;
   }
 
+ #modal {
+  width: 85%;
+  margin: auto;
+ }
+
   .bg-2 p {
     color: #ffffff; White
   }
