@@ -15,14 +15,16 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <!-- Linking CSS Style Sheet -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Linking jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./assets/javascript/app.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar-fixed-top">
 
 <!-- Navbar -->
-<nav id="nav" class="navbar navbar-default">
+<nav id="nav" class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -137,7 +139,7 @@
 <!-- Modal -->
 
 <div id="myModal" class="modal fade" role="dialog">
-  <div id="modal" class="modal-lg modal-dialog">
+  <div id="modal" class="modal-lg img-responsive modal-dialog">
 
     <!-- Modal content-->
     <div class="modal-content">
@@ -146,7 +148,7 @@
         <h4 class="modal-title">Modal Header</h4>
       </div>
       <div class="modal-body">
-        <iframe width="100%" src="https://docs.google.com/document/d/1fV0CMFftg99JsFY4p_BQC-d9I540CLoIDSZJT-dBUso/edit#"></iframe>
+        <iframe width="100%" src="https://docs.google.com/document/d/1fV0CMFftg99JsFY4p_BQC-d9I540CLoIDSZJT-dBUso/pub?embedded=true"></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

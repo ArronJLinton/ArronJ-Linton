@@ -18,6 +18,8 @@ body {
   }
 
 
+
+
 /*First Container*/
 
   /* The animation slideshow code */
@@ -46,12 +48,17 @@ body {
     height: auto;
   }
 
-  #nav {
+/*  #nav {
     position: fixed;
     width: 100%;
     overflow: auto;
     z-index: 99;
-  }
+  }*/
+
+  .navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
 
 /*First Container Text*/
   #front-caption {
@@ -75,6 +82,12 @@ body {
  #modal {
   width: 85%;
   margin: auto;
+ }
+
+ /*iframe Tag*/
+
+ .c24 {
+  padding: 0;
  }
 
   .bg-2 p {
