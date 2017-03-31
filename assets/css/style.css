@@ -38,7 +38,7 @@ body {
       background-image: url("../images/skyline.jpeg");
       background-size: cover;
       animation-name: slideshow;
-      animation-duration: 10s;
+      animation-duration: 13s;
       animation-iteration-count: infinite;
   }
 
@@ -216,9 +216,10 @@ h4 {
 }
 
 /*Background Slideshow*/
-  .background-image img {
+  .background-pics {
     max-width: 640px;
     width: 100%;
+    background-size: 100% 100%;
   }
 
 /*About Me Section*/
