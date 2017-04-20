@@ -23,23 +23,23 @@ body {
 /*First Container*/
 
   /* The animation slideshow code */
-@keyframes slideshow {
+/*@keyframes slideshow {
       0%  {background-image: url("../images/skyline.jpeg");}
       25%  {background-image: url("../images/suburbs.jpg");}
       50%  {background-image: url("../images/landscape.jpeg");}
       75% {background-image: url("../images/beach.jpeg");}
-  }
+  }*/
 
    /*The element to apply the animation to */
 .background-pics {
       max-width: 100%;
       width: 100%;
-      height: 640px;
-      background-image: url("../images/skyline.jpeg");
+ 
+      /*background-image: url("../images/skyline.jpeg");*/
       background-size: cover;
-      animation-name: slideshow;
+/*      animation-name: slideshow;
       animation-duration: 13s;
-      animation-iteration-count: infinite;
+      animation-iteration-count: infinite;*/
   }
 
 /*  .background-image {
