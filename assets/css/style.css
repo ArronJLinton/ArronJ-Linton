@@ -43,7 +43,7 @@ body {
   }
 
 .parallax-container {
-  height: 500px;
+  height: 600px;
 }
 
 /*  .background-image {
@@ -53,14 +53,14 @@ body {
   }*/
 
   #nav {
-    position: fixed;
+/*    position: fixed;*/
     width: 100%;
 
     z-index: 99;
   }
 
   .navbar-fixed-top.scrolled {
-  background-color: #fff !important;
+  background-color:  #202833 !important;
   transition: background-color 200ms linear;
 }
 
@@ -132,8 +132,8 @@ body {
       letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-      /*color: #1abc9c !important;*/
-      color: transparent;
+      color: lightblue !important;
+   /*   color: transparent;*/
   }
 
 /*Contact Section*/
