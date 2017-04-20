@@ -34,7 +34,7 @@ body {
 .background-pics {
       max-width: 100%;
       width: 100%;
- 
+  
       /*background-image: url("../images/skyline.jpeg");*/
       background-size: cover;
 /*      animation-name: slideshow;
@@ -42,18 +42,22 @@ body {
       animation-iteration-count: infinite;*/
   }
 
+.parallax-container {
+  height: 500px;
+}
+
 /*  .background-image {
   
     width: 100%;
     height: auto;
   }*/
 
-/*  #nav {
+  #nav {
     position: fixed;
     width: 100%;
-    overflow: auto;
+
     z-index: 99;
-  }*/
+  }
 
   .navbar-fixed-top.scrolled {
   background-color: #fff !important;
@@ -62,9 +66,9 @@ body {
 
 /*First Container Text*/
   #front-caption {
-    position: absolute;
-    left: 6%;
-    bottom: 30%;
+
+    margin-top: 15%;
+    text-align: center;
     font-style: italic;
   }
 
@@ -128,7 +132,8 @@ body {
       letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-      color: #1abc9c !important;
+      /*color: #1abc9c !important;*/
+      color: transparent;
   }
 
 /*Contact Section*/
