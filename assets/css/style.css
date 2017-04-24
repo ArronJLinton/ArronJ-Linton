@@ -1,7 +1,7 @@
 body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
   }
 
   * {
@@ -17,51 +17,41 @@ body {
     margin-bottom: 45px;
   }
 
-
-
-
-/*First Container*/
-
-  /* The animation slideshow code */
-/*@keyframes slideshow {
-      0%  {background-image: url("../images/skyline.jpeg");}
-      25%  {background-image: url("../images/suburbs.jpg");}
-      50%  {background-image: url("../images/landscape.jpeg");}
-      75% {background-image: url("../images/beach.jpeg");}
-  }*/
-
-   /*The element to apply the animation to */
-.background-pics {
-      max-width: 100%;
-      width: 100%;
-  
-      /*background-image: url("../images/skyline.jpeg");*/
-      background-size: cover;
-/*      animation-name: slideshow;
-      animation-duration: 13s;
-      animation-iteration-count: infinite;*/
-  }
-
-.parallax-container {
-  height: 600px;
-}
-
-/*  .background-image {
-  
+/*============= NavBar ==============*/
+  #navbar {
+    /*margin: 0 auto ;*/
     width: 100%;
-    height: auto;
-  }*/
-
-  #nav {
-/*    position: fixed;*/
-    width: 100%;
-
-    z-index: 99;
   }
 
   .navbar-fixed-top.scrolled {
   background-color:  #202833 !important;
   transition: background-color 200ms linear;
+  }
+
+  .navbar {
+      padding: 2% 5%;
+  /*    border: 0;*/
+  /*    border-radius: 0;*/
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+
+  .navbar-nav  li a:hover {
+      color: #233a60 !important;
+      background-color: transparent;
+  }
+
+/*First Container*/
+
+.background-pics {
+      max-width: 100%;
+      width: 100%;
+      background-size: cover;
+  }
+
+.parallax-container {
+  height: 600px;
 }
 
 /*First Container Text*/
@@ -113,30 +103,13 @@ body {
       color: #fff;
       background: url("../images/old_wall.png");
   }
-  
-  .container {
-    padding: 10px 10px;
-  }
 
   .container-fluid {
       padding-top: 70px;
       padding-bottom: 70px;
   }
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: lightblue !important;
-   /*   color: transparent;*/
-  }
 
-/*Contact Section*/
+/*Contact Section
 
 /*#contact-section {
   max-width: 1200px;
@@ -216,10 +189,10 @@ h4 {
   width: 100%;
 }
 
-#front-caption {
+/*#front-caption {
   margin: auto;
 }
-
+*/
 /*Background Slideshow*/
   .background-pics {
     max-width: 640px;
