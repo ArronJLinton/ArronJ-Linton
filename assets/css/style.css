@@ -77,10 +77,10 @@ body {
     margin-right: 15%;
   }
 
- #modal {
+ #myModal {
   width: 85%;
-  margin: auto;
- }
+  overflow: none;
+  }
 
  /*iframe Tag*/
 
