@@ -14,7 +14,7 @@ body {
     color: black;
   }
   .margin {
-    margin-bottom: 45px;
+    margin-bottom: 35px;
   }
 
 /*============= NavBar ==============*/
@@ -103,6 +103,14 @@ body {
       color: #fff;
       background: url("../images/old_wall.png");
   }
+
+  #contact-caption {
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-weight: bold;
+    font-style: italic;
+ }
 
   .container-fluid {
       padding-top: 70px;
