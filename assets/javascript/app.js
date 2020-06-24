@@ -33,38 +33,6 @@ var email = '';
 var message= '';
 
 
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAoPrDVF-YcORk6cPherUmCcQSKLMfXaGs",
-    authDomain: "portfolio-91cbe.firebaseapp.com",
-    databaseURL: "https://portfolio-91cbe.firebaseio.com",
-    projectId: "portfolio-91cbe",
-    storageBucket: "portfolio-91cbe.appspot.com",
-    messagingSenderId: "1013370093938"
-  };
-  firebase.initializeApp(config);
-
-  var database = firebase.database();
-
-  $("#submit-message").on("click", function(event){
-
-    event.preventDefault();
-
-    name = $("#name").val().trim();
-    email = $("#email").val().trim();
-    message = $("#message").val().trim();
-
-
-    database.ref().push({
-        name : name,
-        email : email,
-        message : message
-    });
-    window.location.replace("#navbar");
-    $("#message")[0].reset();
-
-  });
-
 
 });
 
