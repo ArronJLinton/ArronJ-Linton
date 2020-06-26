@@ -13,6 +13,7 @@ body {
     font-size: 16px;
     color: black;
   }
+
   .margin {
     margin-bottom: 35px;
   }
@@ -24,8 +25,8 @@ body {
   }
 
   .navbar-fixed-top.scrolled {
-  background-color:  #202833 !important;
-  transition: background-color 200ms linear;
+    background-color:  #202833 !important;
+    transition: background-color 200ms linear;
   }
 
   .navbar {
@@ -66,6 +67,7 @@ body {
   .bg-2 { 
       background-color: black;
       color: #ffffff;
+      height: 90vh;
   }
 
   h3, #about h3 {
@@ -89,60 +91,41 @@ body {
  }
 
   .bg-2 p {
-    color: #ffffff; White
+    color: #ffffff
   }
 
 /*Projects Section*/
   .bg-3 { 
-      background-color: #ffffff;  White 
-      color: #555555;
+    background-color: #ffffff; 
+    color: #555555;
+    height: 100vh;
   }
 
-  /*Contact Section*/
+  /* ====== CONTACT SECTION ====== */
   .bg-4 { 
-      color: #fff;
-      background: url("../images/old_wall.png");
+    color: #eeeeee;
+    background-color:#202833;
+    height: 80vh;
+    margin: 0 auto;
+    /* background: url("../images/old_wall.png"); */
   }
 
   #contact-caption {
     margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
     font-weight: bold;
     font-style: italic;
- }
-
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
   }
 
-/*Contact Section
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
 
-/*#contact-section {
-  max-width: 1200px;
-  width: 100%;
-}*/
-
-/*Message Form*/
-
-#message-form {
-  background: #fff;
-  padding: 30px;
-  max-width: 600px;
-  width: 100%;
-  border: 1px solid #ddd;
-  float: left;
-  margin-left: 50px;
-}
-
-label {
-  color: black;
-  font-size: 16px;
-}
+  #skills {
+    margin: 0 auto;
+  }
 
 /*Connect With Me Sidebar*/
-
 #connect {
   max-width: 400px;
   margin-right: 50px;
@@ -154,21 +137,23 @@ label {
   margin-bottom: 20px;
 }
 
-h3, #connect h3 {
-  color: black;
+h3, #connect h3, #contact p {
+  color: #eeeeee;
 
 }
+
 h4, #connect h4 {
   border-bottom: 2px solid #eee;
   margin-bottom: 15px;
   line-height: 22px;
-  color: black;
+  color: #eeeeee;
 }
 
 h4 {
   padding-bottom: 15px;
 }
 
+/* SOCIAL MEDIA ICONS */
 .social {
   height: 75px;
   width: 75px;
@@ -180,6 +165,43 @@ h4 {
   margin-right: 0;
 }
 
+/* body {  margin:0 auto; max-width:940px;} */
+
+#swdicons a {
+
+  color: #fffffa;
+  background-color: #c61118;
+
+  display: inline-block;
+
+  font-size: 56px;
+
+  border-radius:25px;
+
+  height: auto;
+  text-align:center;
+
+  padding:8px;
+  line-height: 56px;
+  width: 75px;
+  margin: 0 1px 6px;
+  margin-top: 50px;
+
+}
+
+footer {
+  background-color: #202833;
+  margin: 0;
+  color: white;
+  padding: 25px;
+  width: 100%;
+  
+}
+
+.copyright {
+  color:#eeeeee;
+  font-size: 14px;
+}
 /*Media Screen Tags*/
 @media screen and (max-width: 980px) {
 
