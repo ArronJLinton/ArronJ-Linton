@@ -1,149 +1,132 @@
 body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
-  }
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
 
-  * {
-    box-sizing: border-box;
-  }
+* {
+  box-sizing: border-box;
+}
 
 /**/
-  p {
-    font-size: 16px;
-    color: black;
-  }
+p {
+  font-size: 16px;
+  color: black;
+}
 
-  .margin {
-    margin-bottom: 35px;
-  }
+.margin {
+  margin-bottom: 35px;
+}
 
 /*============= NavBar ==============*/
-  #navbar {
-    /*margin: 0 auto ;*/
-    width: 100%;
-  }
+#navbar {
+  /*margin: 0 auto ;*/
+  width: 100%;
+}
 
-  .navbar-fixed-top.scrolled {
-    background-color:  #202833 !important;
-    transition: background-color 200ms linear;
-  }
+.navbar-fixed-top.scrolled {
+  background-color:  #202833 !important;
+  transition: background-color 200ms linear;
+}
 
-  .navbar {
-      padding: 2% 5%;
-  /*    border: 0;*/
-  /*    border-radius: 0;*/
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
+.navbar {
+  padding: 2% 5%;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
 
-  .navbar-nav  li a:hover {
-      color: #233a60 !important;
-      background-color: transparent;
-  }
+.navbar-nav  li a:hover {
+  color: #233a60 !important;
+  background-color: transparent;
+}
 
 /*First Container*/
 
 .background-pics {
-      max-width: 100%;
-      width: 100%;
-      background-size: cover;
-  }
+  max-width: 100%;
+  width: 100%;
+  background-size: cover;
+}
 
 .parallax-container {
   height: 600px;
 }
 
 /*First Container Text*/
-  #front-caption {
-
-    margin-top: 15%;
-    text-align: center;
-    font-style: italic;
-  }
+#front-caption {
+  margin-top: 15%;
+  text-align: center;
+  font-style: italic;
+}
 
 /*About Me Section*/
-  .bg-2 { 
-      background-color: black;
-      color: #ffffff;
-      height: 90vh;
-  }
+.bg-2 { 
+  background-color: black;
+  color: #ffffff;
+  height: 90vh;
+}
 
-  h3, #about h3 {
-    color: white;
-  }
+h3, #about h3 {
+  color: white;
+}
 
-  #about-summary {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
+#about-summary {
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
- #myModal {
+#myModal {
   width: 85%;
   overflow: none;
-  }
+}
 
- /*iframe Tag*/
+/*iframe Tag*/
 
- .c24 {
+.c24 {
   padding: 0;
- }
+}
 
-  .bg-2 p {
-    color: #ffffff
-  }
+.bg-2 p {
+  color: #ffffff
+}
 
 /*Projects Section*/
-  .bg-3 { 
-    background-color: #ffffff; 
-    color: #555555;
-    height: 100vh;
-  }
+.bg-3 { 
+  background-color: #ffffff; 
+  color: #555555;
+  height: 100vh;
+}
 
-  /* ====== CONTACT SECTION ====== */
-  .bg-4 { 
-    color: #eeeeee;
-    background-color:#202833;
-    height: 80vh;
-    margin: 0 auto;
-    /* background: url("../images/old_wall.png"); */
-  }
+/* ====== CONTACT SECTION ====== */
+.bg-4 { 
+  color: #eeeeee;
+  background-color:#202833;
+  height: 80vh;
+  margin: 0 auto;
+  /* background: url("../images/old_wall.png"); */
+}
 
-  #contact-caption {
-    margin-bottom: 50px;
-    font-weight: bold;
-    font-style: italic;
-  }
+#contact-caption {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
 
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 
-  #skills {
-    margin: 0 auto;
-  }
-
-/*Connect With Me Sidebar*/
-#connect {
-  max-width: 400px;
-  margin-right: 50px;
-  float: right;
-  width: 100%;
-  background: #fff;
-  padding: 30px;
-  border: 1px solid #ddd;
-  margin-bottom: 20px;
+#skills {
+  margin: 40px auto;
 }
 
 h3, #connect h3, #contact p {
   color: #eeeeee;
-
 }
 
 h4, #connect h4 {
-  border-bottom: 2px solid #eee;
   margin-bottom: 15px;
   line-height: 22px;
   color: #eeeeee;
@@ -154,39 +137,25 @@ h4 {
 }
 
 /* SOCIAL MEDIA ICONS */
-.social {
-  height: 75px;
-  width: 75px;
-  margin-top: 8px;
-  margin-right: 10px;
-}
-
 .social:last-child {
   margin-right: 0;
 }
 
 /* body {  margin:0 auto; max-width:940px;} */
 
-#swdicons a {
-
+#social a {
   color: #fffffa;
   background-color: #c61118;
-
   display: inline-block;
-
   font-size: 56px;
-
   border-radius:25px;
-
   height: auto;
   text-align:center;
-
   padding:8px;
   line-height: 56px;
   width: 75px;
   margin: 0 1px 6px;
   margin-top: 50px;
-
 }
 
 footer {
@@ -195,13 +164,13 @@ footer {
   color: white;
   padding: 25px;
   width: 100%;
-  
 }
 
 .copyright {
   color:#eeeeee;
   font-size: 14px;
 }
+
 /*Media Screen Tags*/
 @media screen and (max-width: 980px) {
 
