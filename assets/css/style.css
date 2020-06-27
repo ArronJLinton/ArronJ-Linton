@@ -106,10 +106,11 @@ h3, #about h3 {
 .bg-3 { 
   background-color: #ffffff; 
   color: #555555;
-  /* height: 100vh; */
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 40px 0;
 }
 
 /* ====== CONTACT SECTION ====== */
