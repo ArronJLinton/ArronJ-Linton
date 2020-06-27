@@ -2,6 +2,9 @@ body {
   font: 20px Montserrat, sans-serif;
   line-height: 1.8;
   color: #f5f6f7;
+  height: '100%';
+  display: flex;
+  flex-direction: column;
 }
 
 * {
@@ -26,7 +29,7 @@ p {
 
 .navbar-fixed-top.scrolled {
   background-color:  #202833 !important;
-  transition: background-color 200ms linear;
+  /* transition: background-color 200ms linear; */
 }
 
 .navbar {
@@ -38,7 +41,11 @@ p {
 
 .navbar-nav  li a:hover {
   color: #233a60 !important;
-  background-color: transparent;
+  /* background-color: transparent; */
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 /*First Container*/
@@ -50,7 +57,7 @@ p {
 }
 
 .parallax-container {
-  height: 600px;
+  height: 100vh;
 }
 
 /*First Container Text*/
@@ -64,17 +71,21 @@ p {
 .bg-2 { 
   background-color: black;
   color: #ffffff;
-  height: 90vh;
+  height: 100vh;
 }
 
 h3, #about h3 {
   color: white;
 }
 
-#about-summary {
+#about {
+  height: 100vh
+}
+
+/* #about-summary {
   margin-left: 15%;
   margin-right: 15%;
-}
+} */
 
 #myModal {
   width: 85%;
@@ -95,23 +106,27 @@ h3, #about h3 {
 .bg-3 { 
   background-color: #ffffff; 
   color: #555555;
-  height: 100vh;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* ====== CONTACT SECTION ====== */
 .bg-4 { 
   color: #eeeeee;
   background-color:#202833;
-  height: 80vh;
+  height: 90vh;
   margin: 0 auto;
-  /* background: url("../images/old_wall.png"); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#contact-caption {
-  margin-bottom: 50px;
-  font-weight: bold;
-  font-style: italic;
-}
+/* #contact-caption {
+  /* margin-bottom: 50px; */
+
+/* } */
 
 .container-fluid {
   padding-top: 70px;
@@ -119,7 +134,7 @@ h3, #about h3 {
 }
 
 #skills {
-  margin: 40px auto;
+  /* margin: 40px auto; */
 }
 
 h3, #connect h3, #contact p {
@@ -127,8 +142,8 @@ h3, #connect h3, #contact p {
 }
 
 h4, #connect h4 {
-  margin-bottom: 15px;
-  line-height: 22px;
+  /* margin-bottom: 15px; */
+  /* line-height: 22px; */
   color: #eeeeee;
 }
 
@@ -147,28 +162,28 @@ h4 {
   color: #fffffa;
   background-color: #c61118;
   display: inline-block;
-  font-size: 56px;
+  font-size: 45px;
   border-radius:25px;
   height: auto;
   text-align:center;
   padding:8px;
   line-height: 56px;
-  width: 75px;
-  margin: 0 1px 6px;
-  margin-top: 50px;
+  width: 70px;
+  margin: 30px 1px 6px;
+  /* margin-top: 50px; */
 }
 
 footer {
   background-color: #202833;
-  margin: 0;
   color: white;
   padding: 25px;
-  width: 100%;
+  flex-shrink: 0;
 }
 
 .copyright {
   color:#eeeeee;
   font-size: 14px;
+  /* margin-top: 30px; */
 }
 
 /*Media Screen Tags*/
@@ -178,20 +193,31 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
+  /* CONTACT SECTION */
+  .bg-4 { 
+    /* color: #eeeeee;
+    background-color:#202833; */
+    /* height: 100vh; */
+    /* margin: 0 auto; */
+    /* background: url("../images/old_wall.png"); */
+  }
 }
 
 @media screen and (max-width: 640px) {
 
-.container-fluid {
-  max-width: 640px;
-  width: 100%;
-}
+  /* NAVBAR */
+  .navbar-fixed-top  {
+    position: static
+  }
+  .container-fluid {
+    max-width: 640px;
+    width: 100%;
+  }
 
-/*#front-caption {
-  margin: auto;
-}
-*/
+  /*#front-caption {
+    margin: auto;
+  }
+  */
 /*Background Slideshow*/
   .background-pics {
     max-width: 640px;
@@ -201,34 +227,18 @@ footer {
 
 /*About Me Section*/
 
-#about-summary {
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-/*Message form panel*/
-  #message-form {
-    max-width: 550px;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    float: none;
+  #about-summary {
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
-/*Connect Panel*/
-  #connect {
-    max-width: 550px;
-    width: 100%;
-    margin: auto;
-    margin-top: 75px;
-    max-height: 300px;
-    height: 100%;
-    text-align: center;
-    float: none;
-  }
 
-  .social {
-    height: 100px;
-    width: 85px;
+/* CONTACT SECTION */
+  .bg-4 { 
+    /* color: #eeeeee;
+    background-color:#202833; */
+    /* height: 100vh; */
+    /* margin: 0 auto; */
+    /* background: url("../images/old_wall.png"); */
   }
 }

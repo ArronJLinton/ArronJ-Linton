@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <title>Arron J. Linton</title>
-
   <!-- Linking Reset StyleSheet -->
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
   <meta charset="utf-8">
@@ -25,9 +24,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
   <script type="text/javascript" src="./assets/javascript/app.js"></script>
-
 </head>
-<body data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- How To Add Font Awesome Social Icons In Blog Or Website3 -->
   <ins class="adsbygoogle"
@@ -40,7 +38,7 @@
   </script>
 <!-- Navbar -->
 <div class="container" id="navbar">
-  <nav class="navbar transparent navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
+  <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -62,19 +60,19 @@
 </div> <!-- End of Navigation -->
 
 <!-- First Container -->
-
-  <div class="parallax-container background-pics">
-    <div class="parallax"><img src="./assets/images/beach.jpeg"></div>
-      <div class="parallax container" id="front-caption">
-      <h3 style="color:white; text-align: center">Full Stack Web Developer <br> Positive Enthusiast <br> Avid Traveler</h3>
-      </div>
-  </div>
+<main>
+<div class="parallax-container background-pics">
+  <div class="parallax"><img src="./assets/images/beach.jpeg"></div>
+    <div class="parallax container" id="front-caption">
+    <h3 style="color:white; text-align: center">Full Stack Web Developer <br> Positive Enthusiast <br> Avid Traveler</h3>
+    </div>
+</div>
 
 
 <!-- Second Container -->
 <div id="about" class="container-fluid bg-2 text-center">
   <h3 class="margin">ABOUT ME</h3>
-  <div id="about-summary" class="row">
+  <div class="container">
     <p>First and foremost, I never thought I'd love application development as much as I do now. I love the fact that web development is constantly evolving and in order to maintain relevancy in the field, you have to evolve with it. 
     As a Full Stack Web Developer, I am passionate, determined, and flowing with creativity. I love working with a diverse team in effort to achieve a shared goal. Team members come from different walks of life and more specifically different technology environments; in this fashion, I am able to pick everyone's brain in effort to improve my technology stack and creative focus.
     <br>
@@ -86,31 +84,36 @@
   </div>
 </div>
 
-  <div class="parallax-container .background-pics">
+  <!-- <div class="parallax-container .background-pics">
     <div class="parallax"><img src="./assets/images/skyline.jpeg"></div>
-  </div>
+  </div> -->
 
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h3 class="margin" id="projects" style="color:black">PROJECTS</h3>
+<div id="projects" class="container bg-3 text-center">    
+  <h3 style="color:black">PROJECTS</h3>
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-12">
       <h4>MAESTRO</h4>
       <p>Web Application that increases company productivity via improving company culture by connecting and engaging employees on a music platform.</p>
       <a href="https://arronjlinton.github.io/Maestro/"><img src="assets/images/maestro.png" class="img-responsive img-rounded margin project-image" alt="Maestro"></a>
     </div>
-    <div class="col-sm-4">
+  </row>
+  <row>
+    <div class="col-sm-12">
       <h4>NewYork Times APP</h4>
       <p>Easy-to-use informational news search platform that utilizes the NewYork Times API to display information based on user input.</p>
       <br>
       <a href="https://dry-fortress-57474.herokuapp.com/"><img src="./assets/images/nytimes.png" class="img-responsive img-rounded margin project-image" alt="NYTIMES"></a>
     </div>
-    <div class="col-sm-4">
+  </row>
+  <row>
+    <div class="col-sm-12">
       <h4>Music Trivia</h4>
       <p>Created a Music Trivia game playable in the browser.</p>
       <br>
       <a href="https://trivia-music.herokuapp.com/"><img src="./assets/images/musictrivia.jpg" class="img-responsive img-rounded margin project-image" alt="MUSIC TRIVIA"></a>
     </div>
+  </row>
   </div>
 </div>
 
@@ -174,7 +177,7 @@
   </div>
 </div>
 
-
+</main>
 <!-- Footer -->
 <footer class="text-center">
   <div class="copyright">
